@@ -80,7 +80,7 @@
                 </div>
             </div>
             <div class="relative dropdown">
-                <a href="#products" class="hover:text-primary transition-colors cursor-pointer">热门头盔</a>
+                <a href="#products" class="hover:text-primary transition-colors cursor-pointer">产品阵容</a>
                 <div class="dropdown-content absolute top-full left-0 bg-secondary mt-2 px-2 py-2 opacity-0 invisible transition-all duration-200">
                     <a href="#products" class="block px-6 py-2 hover:bg-dark hover:text-primary transition-colors">FULL FACE 全盔</a>
                     <a href="#products" class="block px-6 py-2 hover:bg-dark hover:text-primary transition-colors">OPEN FACE 四分之三盔</a>
@@ -154,7 +154,7 @@
 <section class="h-screen relative flex items-center">
     <div class="absolute inset-0 bg-black/60 z-0"></div>
     <video autoplay muted loop playsinline class="absolute w-full h-full object-cover z-[-1]">
-                <source src="video/video4.mp4" type="video/mp4">
+                <source src="video/v6.mp4" type="video/mp4">
             </video>
     <div class="container mx-auto px-4 md:px-6 relative z-10">
         <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-4 fade-in-up">
@@ -171,27 +171,44 @@
 <!-- 品牌故事 -->
 <section id="story" class="py-20 bg-dark">
     <div class="container mx-auto px-4 md:px-6">
-        <div class="max-w-4xl mx-auto text-center">
-            <h2 class="text-3xl md:text-5xl font-bold mb-6">赛道基因，冠军传承</h2>
-            <p class="text-gray text-lg md:text-xl mb-8 leading-relaxed">
-                RAIDER 源自世界顶级摩托车赛事的技术积淀。我们与 MotoGP 和 WSBK 顶级车队深度合作，
-                将赛场上的尖端科技与实战经验融入每一款头盔的设计之中。
-            </p>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="p-6 bg-secondary rounded-lg">
-                    <i class="fa fa-trophy text-4xl text-primary mb-4"></i>
-                    <h3 class="text-xl font-bold mb-2">MotoGP 合作</h3>
-                    <p class="text-gray">与杜卡迪、雅马哈等顶级车队合作研发</p>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <!-- 左侧图片 -->
+            <div class="relative">
+                <img src="image/tu5.png" class="w-full h-80 md:h-96 object-cover rounded-lg" alt="品牌故事">
+                <div class="absolute -bottom-4 -right-4 w-24 h-24 bg-primary rounded-full flex items-center justify-center">
+                    <span class="text-white text-center text-sm font-bold">25+<br>年赛事经验</span>
                 </div>
-                <div class="p-6 bg-secondary rounded-lg">
-                    <i class="fa fa-flag-checkered text-4xl text-primary mb-4"></i>
-                    <h3 class="text-xl font-bold mb-2">WSBK 技术支持</h3>
-                    <p class="text-gray">为世界超级摩托车锦标赛提供专业装备</p>
-                </div>
-                <div class="p-6 bg-secondary rounded-lg">
-                    <i class="fa fa-users text-4xl text-primary mb-4"></i>
-                    <h3 class="text-xl font-bold mb-2">冠军车手信赖</h3>
-                    <p class="text-gray">超过50位世界冠军选择RAIDER头盔</p>
+            </div>
+            
+            <!-- 右侧文字 -->
+            <div>
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">赛道基因，冠军传承</h2>
+                <p class="text-gray text-lg mb-6 leading-relaxed">
+                    RAIDER 源自世界顶级摩托车赛事的技术积淀。我们与 MotoGP 和 WSBK 顶级车队深度合作，
+                    将赛场上的尖端科技与实战经验融入每一款头盔的设计之中。
+                </p>
+                <div class="space-y-4">
+                    <div class="flex items-start gap-4">
+                        <i class="fa fa-trophy text-primary text-2xl mt-1"></i>
+                        <div>
+                            <h3 class="text-lg font-bold mb-1">MotoGP 合作</h3>
+                            <p class="text-gray text-sm">与杜卡迪、雅马哈等顶级车队合作研发</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <i class="fa fa-flag-checkered text-primary text-2xl mt-1"></i>
+                        <div>
+                            <h3 class="text-lg font-bold mb-1">WSBK 技术支持</h3>
+                            <p class="text-gray text-sm">为世界超级摩托车锦标赛提供专业装备</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <i class="fa fa-users text-primary text-2xl mt-1"></i>
+                        <div>
+                            <h3 class="text-lg font-bold mb-1">冠军车手信赖</h3>
+                            <p class="text-gray text-sm">超过50位世界冠军选择RAIDER头盔</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -233,7 +250,7 @@
 <section id="products" class="py-20">
     <div class="container mx-auto px-4 md:px-6">
         <div class="text-center mb-12">
-            <h2 class="text-3xl md:text-4xl font-bold mb-3">热销头盔</h2>
+            <h2 class="text-3xl md:text-4xl font-bold mb-3">产品阵容</h2>
             <p class="text-gray">官方正品 | 现货速发 | 全国联保</p>
         </div>
 
@@ -247,9 +264,8 @@
                 <div class="p-5">
                     <h3 class="text-xl font-bold mb-2">FULL FACE 全盔</h3>
                     <p class="text-gray text-sm mb-3">100%碳纤维 | ECE认证 | 1250g</p>
-                    <div class="flex justify-between items-center">
-                        <span class="text-primary text-xl font-bold">¥2,899</span>
-                        <button onclick="addToCart('CARBON PRO 赛道头盔', 2899, 'https://picsum.photos/id/10/600/400')" class="btn-primary text-sm">加入购物车</button>
+                    <div class="mt-3">
+                        <button class="btn-primary w-full">查看产品</button>
                     </div>
                 </div>
             </div>
@@ -262,9 +278,8 @@
                 <div class="p-5">
                     <h3 class="text-xl font-bold mb-2">OPEN FACE 四分之三盔</h3>
                     <p class="text-gray text-sm mb-3">开放式设计 | 遮阳镜片 | 城市通勤</p>
-                    <div class="flex justify-between items-center">
-                        <span class="text-primary text-xl font-bold">¥1,299</span>
-                        <button onclick="addToCart('OPEN FACE 四分之三盔', 1299, 'image/tupian1.jpg')" class="btn-primary text-sm">加入购物车</button>
+                    <div class="mt-3">
+                        <button class="btn-primary w-full">查看产品</button>
                     </div>
                 </div>
             </div>
@@ -278,9 +293,8 @@
                 <div class="p-5">
                     <h3 class="text-xl font-bold mb-2">ADVENTURE 拉力头盔</h3>
                     <p class="text-gray text-sm mb-3">全地形 | 大视野 | 超强通风</p>
-                    <div class="flex justify-between items-center">
-                        <span class="text-primary text-xl font-bold">¥2,199</span>
-                        <button onclick="addToCart('ADVENTURE 拉力头盔', 2199, 'image/tu2.jpg')" class="btn-primary text-sm">加入购物车</button>
+                    <div class="mt-3">
+                        <button class="btn-primary w-full">查看产品</button>
                     </div>
                 </div>
             </div>
@@ -293,9 +307,8 @@
                 <div class="p-5">
                     <h3 class="text-xl font-bold mb-2">RETRO 复古巡航头盔</h3>
                     <p class="text-gray text-sm mb-3">经典造型 | 现代防护 | 轻便</p>
-                    <div class="flex justify-between items-center">
-                        <span class="text-primary text-xl font-bold">¥1,599</span>
-                        <button onclick="addToCart('RETRO 复古巡航头盔', 1599, 'image/tu4.png')" class="btn-primary text-sm">加入购物车</button>
+                    <div class="mt-3">
+                        <button class="btn-primary w-full">查看产品</button>
                     </div>
                 </div>
             </div>
